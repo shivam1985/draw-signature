@@ -1,0 +1,25 @@
+.colorButton {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.colorButton.active {
+  border: 2px solid white;  /* Add a border to indicate the active color */
+}
+
+/* Adjustments for individual colors */
+.colorButton.red {
+  background-color: red;
+}
+
+.colorButton.blue {
+  background-color: blue;
+}
+
+.colorButton.green {
+  background-color: green;
+}
